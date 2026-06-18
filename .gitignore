@@ -1,0 +1,24 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Spark
+spark-warehouse/
+
+# Logs
+logs/
+
+# VSCode
+.vscode/
+
+# MongoDB local files
+mongodb_data/
+
+# OS files
+.DS_Store
