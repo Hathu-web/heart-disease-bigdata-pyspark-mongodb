@@ -12,7 +12,8 @@ db = client["heart_disease_db"]
 collections = {
     "quality_report": "quality_report.csv",
     "cleaning_summary": "cleaning_summary.csv",
-    "model_metrics": "model_metrics.csv"
+    "model_metrics": "model_metrics.csv",
+    "collection_quality_scores": "collection_quality_scores.csv"
 }
 
 for collection_name, output_file in collections.items():
@@ -23,3 +24,9 @@ for collection_name, output_file in collections.items():
     df.to_csv(output_path, index=False, encoding="utf-8-sig")
 
     print(f"Exported {collection_name} -> {output_path}")
+collections = {
+    "quality_report": "quality_report.csv",
+    "cleaning_summary": "cleaning_summary.csv",
+    "model_metrics": "model_metrics.csv",
+    "collection_quality_scores": "collection_quality_scores.csv"
+}

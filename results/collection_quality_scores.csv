@@ -1,0 +1,11 @@
+﻿checked_at,collection,dimension,failed_items,passed_items,rule,score_percent,total_items,unit
+2026-06-20 20:41:11,raw_patients,Uniqueness,0,70000,Check duplicate patient IDs,100.0,70000,record
+2026-06-20 20:41:16,clean_patients,Uniqueness,0,68628,Check duplicate patient IDs,100.0,68628,record
+2026-06-20 20:41:16,clean_patients,Consistency,0,68628,"Check ap_hi >= ap_lo, valid BMI, and adult age",100.0,68628,record
+2026-06-20 20:41:16,clean_patients,Overall Data Quality,0,0,"Average score of Completeness, Validity, Uniqueness, and Consistency",100.0,68628,score
+2026-06-20 20:41:11,raw_patients,Validity,1278,68722,Check valid ranges and valid categorical values,98.17,70000,record
+2026-06-20 20:41:16,clean_patients,Completeness,0,1029420,Check missing/null values across all business columns,100.0,1029420,cell
+2026-06-20 20:41:11,raw_patients,Consistency,1271,68729,"Check ap_hi >= ap_lo, valid BMI, and adult age",98.18,70000,record
+2026-06-20 20:41:11,raw_patients,Overall Data Quality,0,0,"Average score of Completeness, Validity, Uniqueness, and Consistency",99.09,70000,score
+2026-06-20 20:41:16,clean_patients,Validity,0,68628,Check valid ranges and valid categorical values,100.0,68628,record
+2026-06-20 20:41:11,raw_patients,Completeness,0,910000,Check missing/null values across all business columns,100.0,910000,cell
