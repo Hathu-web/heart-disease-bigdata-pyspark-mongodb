@@ -1,0 +1,6 @@
+﻿checked_at,collection,dimension,failed_records,passed_records,rule,score_percent,total_records
+2026-06-20 13:30:56,raw_patients,Overall Data Quality,0,0,"Average score of Completeness, Validity, Uniqueness, and Consistency",99.09,70000
+2026-06-20 13:30:56,raw_patients,Completeness,0,910000,Check missing/null values across all business columns,100.0,70000
+2026-06-20 13:30:56,raw_patients,Validity,1278,68722,Check valid ranges and valid categorical values,98.17,70000
+2026-06-20 13:30:56,raw_patients,Uniqueness,0,70000,Check duplicate patient IDs,100.0,70000
+2026-06-20 13:30:56,raw_patients,Consistency,1271,68729,"Check ap_hi >= ap_lo, valid BMI, and adult age",98.18,70000

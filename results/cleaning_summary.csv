@@ -1,0 +1,2 @@
+﻿checked_at,clean_records,collection_source,collection_target,raw_records,removed_records,retention_rate_percent,rules_applied
+2026-06-20 13:43:15,68628,raw_patients,clean_patients,70000,1372,98.04,"Remove invalid age, height, weight, blood pressure values; remove invalid categorical values; remove inconsistent blood pressure records where ap_hi < ap_lo; remove records with unreasonable BMI; remove duplicate patient IDs"
